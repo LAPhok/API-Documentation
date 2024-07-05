@@ -1,0 +1,6 @@
+curl -X PUT -H "Content-Type: application/json" -d '{
+    "nom": "Histoire",
+    "description": "HITLER ET LA SECONDE GUERRE MONDIALE",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcxNTQ3MTU5MiwiZXhwIjoxNzE1NDc1MTkyfQ._Qcz67jKI238ciyDKGjeIGtqT22bYXsE-ohqg7v84_k"
+}'
+http://localhost:3000/updatematiere/2

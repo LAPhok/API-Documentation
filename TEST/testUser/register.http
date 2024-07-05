@@ -1,0 +1,6 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+    "username": "e2056762",
+    "password": "e2056762",
+    "email": "e2056762@cmaisonneuve.qc.ca"
+}'
+http://localhost:3000/register

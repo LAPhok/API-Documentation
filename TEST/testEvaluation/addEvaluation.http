@@ -1,0 +1,7 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+    "userId": 1,
+    "matiereId": 2,
+    "note": 100,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcxNTQ3MTU5MiwiZXhwIjoxNzE1NDc1MTkyfQ._Qcz67jKI238ciyDKGjeIGtqT22bYXsE-ohqg7v84_k"
+}'
+http://localhost:3000/addEvaluation

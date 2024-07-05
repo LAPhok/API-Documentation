@@ -1,0 +1,4 @@
+curl -X DELETE -H "Content-Type: application/json" -d '{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTcxNTQ3MTU5MiwiZXhwIjoxNzE1NDc1MTkyfQ._Qcz67jKI238ciyDKGjeIGtqT22bYXsE-ohqg7v84_k"
+}'
+http://localhost:3000/deleteevaluation/4
